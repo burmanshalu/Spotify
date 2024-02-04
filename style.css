@@ -1,0 +1,56 @@
+*{margin: 0px;
+padding:0;}
+
+body{
+background-color: antiquewhite;}
+
+
+.navbar{ display: flex;
+    list-style: none;
+    height:50px ;
+    background-color:black;
+font-size: large;
+font-weight: bolder;
+color: red;
+align-items: center;}
+
+nav ul li{padding: 12px;}
+
+
+.logo img{height: 40px;
+    width: 40px;}
+
+ .container{min-height: 80vh;
+width: 800px;
+margin: 23px auto;
+background-color: rgb(61, 59, 59);
+background-image:url(./images/img1.jpg);
+background-size: cover;
+color: white;}   
+    
+    .bottom{ background-color:black;
+        height: 60px;
+display: flexbox;
+}
+
+ #myProgressBar{ width: 1090px;
+margin-left: 200px;
+color: black;
+cursor: pointer;}
+
+.button{margin-left: 800px;
+    color: white;
+cursor: pointer;}
+
+    span{ font-size: large;
+     }
+    
+    
+    .songimg{height: 50px;
+        width: 50px;
+        margin-top: 30px;
+        margin-left: 20px;
+        border-radius: 80px;
+        ;
+    }
+
